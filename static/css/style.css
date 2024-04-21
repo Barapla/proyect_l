@@ -1,0 +1,369 @@
+/* Modal Toggle Button */
+.block {
+    display: block;
+  }
+  
+  .text-white {
+    color: #ffffff;
+  }
+  
+  .bg-blue-700 {
+    background-color: #1d4ed8;
+  }
+  
+  .hover\:bg-blue-800:hover {
+    background-color: #2563eb;
+  }
+  
+  .focus\:ring-4:focus {
+    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.5);
+  }
+  
+  .focus\:outline-none:focus {
+    outline: 0;
+  }
+  
+  .focus\:ring-blue-300:focus {
+    box-shadow: 0 0 0 4px rgba(49, 132, 253, 0.5);
+  }
+  
+  .font-medium {
+    font-weight: 500;
+  }
+  
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+  
+  .text-sm {
+    font-size: 0.875rem;
+  }
+  
+  .px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+  
+  .py-2\.5 {
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .dark\:bg-blue-600 {
+    /* This would be used with a class toggle based on a dark mode setting */
+  }
+  
+  .dark\:hover\:bg-blue-700:hover {
+    /* This would be used with a class toggle based on a dark mode setting */
+  }
+  
+  .dark\:focus\:ring-blue-800:focus {
+    /* This would be used with a class toggle based on a dark mode setting */
+  }
+  
+  /* Main Modal */
+  .fixed {
+    position: fixed;
+  }
+  
+  .top-0 {
+    top: 0;
+  }
+  
+  .left-0 {
+    left: 0;
+  }
+  
+  .right-0 {
+    right: 0;
+  }
+  
+  .z-50 {
+    z-index: 50;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .w-full {
+    width: 100%;
+  }
+  
+  .p-4 {
+    padding: 1rem;
+  }
+  
+  .overflow-x-hidden {
+    overflow-x: hidden;
+  }
+  
+  .overflow-y-auto {
+    overflow-y: auto;
+  }
+  
+  @media (min-width: 768px) {
+
+        .md\:inset-0 {
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+    }
+
+    .h-perso{
+        height: calc(100%-1rem);
+    }
+  .max-h-full {
+    max-height: 100%;
+  }
+  
+  /* Modal Content */
+  .relative {
+    position: relative;
+  }
+  
+  .max-w-md {
+    max-width: 28rem;
+  }
+  
+  .bg-white {
+    background-color: #ffffff;
+  }
+  
+  .shadow {
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  }
+  
+  .bg-gray-700 {
+    background-color: #374151;
+  }
+  
+  .cursor-pointer{
+    cursor: pointer;
+  }
+  /* Close Button */
+  .absolute {
+    position: absolute;
+  }
+  
+  .top-3 {
+    top: 0.75rem;
+  }
+  
+  .right-2\.5 {
+    right: 0.625rem;
+  }
+  
+  .text-gray-400 {
+    color: #9ca3af;
+  }
+
+  .text-gray-800{
+    color: #1f2937;
+  }
+  
+  .bg-transparent {
+    background-color: transparent;
+  }
+  
+  .hover\:bg-gray-200:hover {
+    background-color: #e5e7eb;
+  }
+  
+  .hover\:text-gray-900:hover {
+    color: #1f2937;
+  }
+  
+  .ml-auto {
+    margin-left: auto;
+  }
+  
+  .inline-flex {
+    display: inline-flex;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .w-8 {
+    width: 2rem;
+  }
+  
+  .h-8 {
+    height: 2rem;
+  }
+  
+  /* ...And so on for the rest of the classes used in the form and its elements. */
+  
+  /* Input Styles */
+.bg-gray-50 {
+    background-color: #f9fafb;
+  }
+  
+  .border {
+    border-width: 1px;
+  }
+  
+  .border-gray-300 {
+    border-color: #d1d5db;
+  }
+  
+  .text-gray-900 {
+    color: #111827;
+  }
+  
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+  
+  .focus\:ring-blue-500:focus {
+    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.5);
+  }
+  
+  .focus\:border-blue-500:focus {
+    border-color: #3b82f6;
+  }
+  
+  .block {
+    display: block;
+  }
+  
+  .w-full {
+    width: 100%;
+  }
+  
+  .p-2\.5 {
+    padding: 0.625rem;
+  }
+  
+  .dark\:bg-gray-600 {
+    /* This would be used with a class toggle based on a dark mode setting */
+  }
+  
+  .dark\:border-gray-500 {
+    /* This would be used with a class toggle based on a dark mode setting */
+  }
+  
+  .dark\:placeholder-gray-400::placeholder {
+    /* This would be used with a class toggle based on a dark mode setting */
+    color: #9ca3af;
+  }
+  
+  .dark\:text-white {
+    /* This would be used with a class toggle based on a dark mode setting */
+    color: #ffffff;
+  }
+  
+  /* Checkbox Styles */
+  .w-4 {
+    width: 1rem;
+  }
+  
+  .h-4 {
+    height: 1rem;
+  }
+  
+  .focus\:ring-3:focus {
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5);
+  }
+  
+  .focus\:ring-blue-300:focus {
+    box-shadow: 0 0 0 3px rgba(147, 197, 253, 0.5);
+  }
+  
+  .dark\:focus\:ring-blue-600:focus {
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.5);
+  }
+  
+  .dark\:ring-offset-gray-800:focus {
+    box-shadow: 0 0 0px 3px rgba(31, 41, 55, 1);
+  }
+  
+  /* Text and Link Styles */
+  .text-blue-700 {
+    color: #1d4ed8;
+  }
+  
+  .hover\:underline:hover {
+    text-decoration: underline;
+  }
+  
+  .dark\:text-blue-500 {
+    color: #3b82f6;
+  }
+  
+  .text-gray-500 {
+    color: #6b7280;
+  }
+  
+  .font-medium {
+    font-weight: 500;
+  }
+  
+  .mb-2 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .text-sm {
+    font-size: 0.875rem;
+  }
+  
+  /* Utility Classes for Margin and Padding */
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  
+  .px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  
+  .py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  
+  .lg\:px-8 {
+    /* This would apply at the large breakpoint defined by Tailwind */
+  }
+  
+  .space-y-6 > * + * {
+    margin-top: 1.5rem;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .items-start {
+    align-items: flex-start;
+  }
+  
+  .justify-between {
+    justify-content: space-between;
+  }
+  
+  /* Font Size and Weight */
+  .text-xl {
+    font-size: 1.25rem;
+  }
+  
+  /* Additional Styles for Responsiveness */
+  @media (min-width: 768px) {
+    .lg\:px-8 {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  }
+  
